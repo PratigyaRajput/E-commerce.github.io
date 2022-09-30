@@ -57,6 +57,9 @@
     .main-btn {
         padding: 6px 12px;
     }
+    .product-tabs .nav {
+        flex-wrap: nowrap;
+    }
     
 }
 @media (max-width:420px){
@@ -73,7 +76,7 @@
         font-size: 13px;
     }
 }
-@media (max-width:3690px){
+@media (max-width:360px){
     .headlogin li a {
         font-size: 8px !important;
     }
