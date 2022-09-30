@@ -1,0 +1,77 @@
+@media (max-width:1280px){
+    .midheader .cart-box span b {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+}
+@media (max-width:1280px){
+    .clients {
+        padding: 10px 0px;
+    }
+    .nav-link {
+        color: var(--white);
+        margin: 0px 20px;
+        font-size: 17px;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 7.25rem;
+    }
+}
+
+@media (max-width:912px){
+    .midheader figure {
+        text-align: center;
+    }
+    .carousel-caption {
+        position: absolute;
+        bottom: 5.25rem;
+    }
+    .carousel-inner h2 {
+        font-size: 38px !important;
+    }
+    .carousel-inner h4 {
+        font-size: 28px !important;
+    }
+    /* .testimonial-box p{
+        padding: 0px 20px;
+    } */
+    .midheader .cart-box span b {
+        font-size: 16px;
+    }
+    .cart-box{
+        margin-top: 20px;
+    }
+}
+@media (max-width:540px){
+    .carousel-caption {
+        position: absolute;
+        bottom: 1.25rem;
+    }
+    .carousel-inner h2 {
+        font-size: 30px !important;
+    }
+    .carousel-inner h4 {
+        font-size: 20px !important;
+    }
+    .main-btn {
+        padding: 6px 12px;
+    }
+    
+}
+@media (max-width:420px){
+    .carousel-caption {
+       display: none !important;
+    }
+    .headlogin li a {
+        font-size: 10px !important;
+    }
+    .headlogin li {
+        margin: 0px 4px;
+    }  
+    .midheader .cart-box span b {
+        font-size: 13px;
+    }
+}
+
+
