@@ -52,6 +52,11 @@ ul {
   border-radius: 0.25rem;
   transition: box-shadow .15s ease-in-out;
 }
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
 
 .btn2{
   background-color: var(--darkgreen);
