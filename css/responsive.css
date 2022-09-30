@@ -40,7 +40,7 @@
         font-size: 16px;
     }
     .cart-box{
-        margin-top: 20px;
+        margin-top: 24px;
     }
 }
 @media (max-width:540px){
@@ -71,6 +71,20 @@
     }  
     .midheader .cart-box span b {
         font-size: 13px;
+    }
+}
+@media (max-width:3690px){
+    .headlogin li a {
+        font-size: 8px !important;
+    }
+    .midheader .cart-box span b {
+        font-size: 10px;
+    }
+    .cart-box-subhdng {
+        font-size: 12px;
+    }
+    .carousel-caption {
+        display: none !important;
     }
 }
 
